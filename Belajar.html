@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menuliskan tipe element dasar pada html</title>
+</head>
+<body>
+    <!-- Tipe text -->
+    <label for="nama">Nama</label> <br>
+    <input type="text" id="nama"> <br><br>
+
+    <!-- Tipe email -->
+    <form>
+        <label for="isian_email">Masukkan email</label> <br>
+        <input type="email" name="mail" id="isian_email" value="kucing"> <br><br>
+
+        <button>Submit</button>
+    </form>
+    <br><br>
+
+    <!-- Tipe password -->
+    <label for="pasword">Masukkan password</label> <br>
+    <input type="password" name="keyword" id="password"> <br><br>
+
+    <!-- Tipe number -->
+    <label for="isian_umur">Masukkan Usia</label> <br>
+    <input type="number" name="usia" id="isian_umur" min="18" max="65"> <br><br>
+
+    <!-- Tipe url -->
+    <form>
+        <label for="isian_url">Masukkan url instagram anda</label> <br>
+        <input type="url" name="instagram" id="isian_url"> <br><br>
+        <button>Submit</button>
+    </form>
+    <br><br>
+
+    <!-- Tipe tel -->
+    <label for="isian_nomer">Masukkan nomer telepon Indonesia</label> <br>
+    <input type="tel" name="nomer" id="isian_nomer" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}"> <br><br>
+    <button>Submit</button>
+    <br><br>
+
+    <!-- Tipe date -->
+    <label for="isian_tanggal">Tanggal lahir</label> <br>
+    <input type="date" name="tanggal_lahir" id="isian_tanggal"> <br><br>
+
+    <!-- Tipe datetime-local -->
+    <label for="isian_waktu_bayar">Waktu pembayaran</label> <br>
+    <input type="datetime-local" name="waktu-pembayaran" id="isian_waktu_bayar"> <br><br>
+
+    <!-- Tipe time -->
+    <label for="isian_bayar">Jam pembayaran</label> <br>
+    <input type="time" name="waktu_pembayaran" id="isian_bayar"> <br><br>
+
+    <!-- Tipe month -->
+    <label for="isian_bulan">Bulan lahir</label> <br>
+    <input type="month" name="bulan" id="isian_bulan"> <br><br>
+
+    <!-- Tipe week -->
+    <label for="isian_pekan">Pekan lahir</label> <br>
+    <input type="week" name="pekan" id="isian_pekan"> <br> <br>
+
+    <!-- Tipe radio -->
+    <form>
+        Jenis kelamin <br>
+        <div>
+            <input type="radio" name="jenis_kelamin" id="lk">
+            <label for="lk">Laki-laki</label>
+        </div>
+        <div>
+            <input type="radio" name="jenis_kelamin" id="pr">
+            <label for="pr">Perempuan</label>
+        </div>
+    </form>
+    <br><br>
+
+    <!-- Tipe checkbox -->
+    <form>
+        Bahasa asing favorit <br>
+        <div>
+            <input type="checkbox" name="bahasa_asing" id="Arab">
+            <label for="Arab">Arab</label>
+        </div>
+        <div>
+            <input type="checkbox" name="bahasa_asing" id="Jepang">
+            <label for="Jepang">Jepang</label>
+        </div>
+        <div>
+            <input type="checkbox" name="bahasa_asing" id="Inggris">
+            <label for="Inggris">Inggris</label>
+        </div>
+    </form>
+    <br><br>
+
+    <!-- Tipe file -->
+    <label for="isian_foto">Upload foto</label> <br>
+    <input type="file" name="foto" id="isian_foto"> <br><br>
+
+    <!-- Tipe range -->
+    <label for="isian_volume">Atur volume</label> <br>
+    <input type="range" name="volume" id="isian_volume"> <br><br>
+
+    <!-- Tipe color -->
+    <label for="isian_warna">Atur Warna Layar</label> <br>
+    <input type="color" name="warna" id="isian_warna"> 
+    <br><br>
+    
+    <!-- Tipe search -->
+    <label for="isian_pencarian">Cari sesuatu</label> <br>
+    <input type="search" name="keyword" id="isian_pencarian"> <br><br>
+
+    <!-- Tipe submit -->
+    <form>
+        <input type="text" name="nama" value="Budi">
+        <input type="submit" value="simpan">
+    </form>
+    <br><br>
+
+    <!-- Tipe reset -->
+    <form>
+        <label for="isian_nama">Nama</label> <br>
+        <input type="text" name="nama" id="isian_nama" value="Andi S"> <br><br>
+        <input type="reset" value="Reset dari awal">
+    </form>
+    <br><br>
+
+    <!-- Tipe hidden -->
+    <input type="hidden" name="sebuah_nama" value="sebuah_nilai">
+    <input type="submit">
+</body>
+</html>
